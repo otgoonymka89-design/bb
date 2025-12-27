@@ -65,11 +65,11 @@ AFRAME.registerComponent('viseme-lipsync', {
                     const name = node.name.toLowerCase();
                     // Зүүн гар
                     if (name.includes('leftarm') || name.includes('lupperarm') || name.includes('left_arm') || name.includes('l_shoulder')) {
-                        node.rotation.x = 1.3; 
+                        node.rotation.x = 1.5; 
                     }
                     // Баруун гар
                     if (name.includes('rightarm') || name.includes('rupperarm') || name.includes('right_arm') || name.includes('r_shoulder')) {
-                        node.rotation.x = 1.3;
+                        node.rotation.x = 1.5;
                     }
                 }
                 if (node.morphTargetDictionary && node.morphTargetInfluences) {
